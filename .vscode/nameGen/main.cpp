@@ -115,8 +115,6 @@ std::string generateName(std::string race, std::string gender)
     return name;
 }
 
-// create a main function to test the code
-
 int main()
 {
     std::cout << generateName("dwarf", "male");
